@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.mount('ember-app-adn-login', {path: '/adn-login'});
 });
 
 export default Router;

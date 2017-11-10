@@ -11,7 +11,9 @@ const App = Ember.Application.extend({
   engines: {
     emberAppAdnLogin: {
       dependencies: {
-        services: [],
+        services: [
+          'logService'
+        ],
         externalRoutes: {
           test: 'test'
         }
